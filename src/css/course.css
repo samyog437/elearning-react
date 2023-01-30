@@ -1,0 +1,39 @@
+.card {
+    width: 250px;
+    height: auto;
+    margin: 0 2rem;
+    cursor: pointer;
+    display: flex;
+    margin-top: 4rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0;
+    border-radius: 5px;
+}
+
+.card .cardimage {
+    height: 90%;
+}
+
+.card .cardimage img{
+    width: 100%;
+    object-fit:cover;
+    height: 100%;
+}
+
+.card .cardtitle {
+    width: auto;
+    padding: 0 1rem;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+
+.row {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    justify-content: center;
+    width: 100%;
+}
+
+

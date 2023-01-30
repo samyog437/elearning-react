@@ -1,0 +1,20 @@
+.reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+Form {
+    width: 20%;
+    margin-top: 5rem;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+
+
+
